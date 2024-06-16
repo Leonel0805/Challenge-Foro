@@ -1,0 +1,7 @@
+package foro.api.curso;
+
+import foro.api.topico.Topico;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CursoRepository extends JpaRepository<Curso, Long> {
+}
